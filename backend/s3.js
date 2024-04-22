@@ -3,8 +3,8 @@ import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 const s3 = new S3Client({
   region: "us-east-1",
   credentials: {
-    accessKeyId: "AKIAXSC4OBTGGTJCWXFF",
-    secretAccessKey: "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",
+    accessKeyId: "",
+    secretAccessKey: "",
   },
 });
 const BUCKET = "pgd-react-app";
